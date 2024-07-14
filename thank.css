@@ -1,0 +1,42 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #e2f3cd;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.container {
+    text-align: center;
+    background: rgb(167, 224, 162);
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+    color: #333;
+}
+
+button {
+    margin-top: 20px;
+    padding: 10px 20px;
+    font-size: 16px;
+    border: none;
+    border-radius: 5px;
+    background-color: #41e44f;
+    color : black;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: gray;
+}
+
+#surpriseMessage {
+    margin-top: 20px;
+    font-size: 18px;
+    color: black;
+}
